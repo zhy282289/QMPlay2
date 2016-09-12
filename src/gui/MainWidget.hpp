@@ -122,7 +122,6 @@ private:
 
 	void showToolBar(bool);
 	void hideDocks();
-	void restoreFocus();
 
 	bool getFullScreen() const;
 
@@ -160,7 +159,6 @@ private:
 
 	SettingsWidget *settingsW;
 	AboutWidget *aboutW;
-	QWidget *lastFocusWidget;
 	bool isCompactView, wasShow, fullScreen, seekSFocus;
 
 #if !defined Q_OS_MAC && !defined Q_OS_ANDROID
